@@ -35,9 +35,9 @@ Project cũng minh họa điểm mạnh của **PlatformIO (PIO)** là có thể
 ## Mục đích DEMO
 Project này sử dụng hai thư viện được cải tiến từ hai thư viện được fork về là **PushBTN.h** và **LED.h**:
 
-PushBTN.h Để đọc phím bấm các tình huống khác nhau (single click, hold, double click). Mã chương trình đã có chức năng khử rung (debouncing) phím.
-LED.h Cung cấp API sáng sủa để khởi tạo và điều khiển LED (đảo trạng thái - flip, và nháy - blink)
-Việc gom các chức năng đọc phím bấm và điều khiển LED như trên vào các thư viện để có thể tái sử dụng, và giúp mã sáng sủa hơn. Các chức năng như trong yêu cầu xuất hiện rất phổ biến ở hầu hết tất cả các project vi điều khiển.
+ - PushBTN.h Để đọc phím bấm các tình huống khác nhau (single click, hold, double click).
+ - Mã chương trình đã có chức năng khử rung (debouncing) phím.
+ - LED.h Cung cấp API sáng sủa để khởi tạo và điều khiển LED (đảo trạng thái - flip, và nháy - blink)
 
 Project cũng minh họa điểm mạnh của **PlatformIO (PIO)** là có thể dùng chung mã nguồn cho nhiều nền tảng phần cứng:  
 - ESP32 (kiến trúc Xtensa lõi kép)  

@@ -22,3 +22,5 @@ Project cũng minh họa điểm mạnh của **PlatformIO (PIO)** là có thể
 - ESP32 (kiến trúc Xtensa lõi kép)  
 - ESP32-C3 (kiến trúc RISC-V lõi đơn)  
 
+
+## PROJECT_2 : PRJ2_PushBTN ##

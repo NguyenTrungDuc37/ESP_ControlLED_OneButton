@@ -22,3 +22,13 @@ Project cũng minh họa điểm mạnh của **PlatformIO (PIO)** là có thể
 
 
 ## PROJECT_2 : PRJ2_PushBTN ##
+## Bài toán
+**Phần cứng:**  
+- 1 nút bấm nhả (push button)  
+- 1 đèn LED hiển thị tích hợp sẵn trên các dev board điển hình
+- 1 đèn LED nối chân GPIO bên ngoài
+  
+**Yêu cầu:**  
+- Khi double click sẽ chuyển chế độ điều khiển giữa hai LED (LED1 và LED2)
+- Khi single click sẽ bật tắt cái LED đang được điều khiển (LED1 hoặc 2, đã chọn ở bước 1)
+- Khi giữ nút nhấn sẽ làm cái LED đang được điều khiển nhấp nháy 200ms một lần. 

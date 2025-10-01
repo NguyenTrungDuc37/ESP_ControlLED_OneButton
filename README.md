@@ -10,10 +10,8 @@
 - Nếu tiếp tục nhấn **single click** → LED quay lại trạng thái bật/tắt bình thường.  
 - **Lưu ý:** Có khử rung phím bấm (debounce). 
 ## Mục đích DEMO
-Project này sử dụng thư viện mã mở **OneButton** và thư viện **LED.h** tự viết:
+Project này sử dụng thư viện mã mở **OneButton**:
 - [OneButton](https://github.com/mathertel/OneButton) của tác giả *Matthias Hertel*.  
-- `LED.h`: Cung cấp API sáng sủa để khởi tạo và điều khiển LED (flip, blink).  
-
 Việc gom các chức năng đọc phím bấm và điều khiển LED như trên vào thư viện giúp:  
 - Tái sử dụng dễ dàng trong nhiều project vi điều khiển khác nhau.  
 - Mã nguồn gọn gàng, dễ hiểu, dễ bảo trì.  
